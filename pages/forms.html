@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="usuario_nome">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="usuario_email">
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="usuario_msg" cols="30" rows="5"></textarea>
+        </div><br>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        <div>
+            <p>Escolha sua lingaguem favorita</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="JS" name="fav_language" value="JS">
+            <label for="JS">JS</label><br>
+        </div>
+        <div>
+            <p>Escolha quais veiculos você tem</p>
+            <input type="checkbox" id="bicicleta" name="bicicleta" value="bike">
+            <label for="bicicleta">Bike</label>
+            <input type="checkbox" id="carro" name="carro" value="bike">
+            <label for="carro">Carro</label>
+            <input type="checkbox" id="onibus" name="onibus" value="bike">
+            <label for="onibus">Ônibus</label>
+        </div><br>
+        <div>
+            <label for="favcolor">Selecione a cor dos veiculos</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </div><br>
+        <div>
+            <label for="dataVeiculo">Selecione o ano do veiculo</label>
+            <input type="date" id="dataVeiculo" name="dataVeiculo">
+        </div>
+        <div><br>
+            <label for="meuArquivo">Selecione o Arquivo</label>
+            <input type="file" id="meuArquivo" name="meuArquivo">
+        </div>
+
+        <br><div class="button">
+            <button type="submit">Enviar</button>
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
